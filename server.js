@@ -7,7 +7,7 @@ var restaurants = require('./routes/api/restaurants');
 var orders = require('./routes/api/order');
 
 const cors = require('cors');
-var port = 5000;
+var port = 80;
 
 var app = express();
 
