@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 var Restaurant = require('../../models/restaurant.js');
 // var DishSchema = require('../../models/restaurant.js');
 
-mongoose.connect('mongodb+srv://chatdb:chatdb@cluster0-pvy8y.mongodb.net/tasklist?retryWrites=true', {useNewUrlParser: true}).then(() => {
+mongoose.connect('mongodb+srv://chatdb:chatdb@cluster0-pvy8y.mongodb.net/FoodDelivery?retryWrites=true', {useNewUrlParser: true}).then(() => {
   console.log('db connected');
 });
 

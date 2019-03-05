@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 var User = require('../../models/users.js');
 var UserSession = require('../../models/usersession.js');
 
-mongoose.connect('mongodb+srv://chatdb:chatdb@cluster0-pvy8y.mongodb.net/tasklist?retryWrites=true', {useNewUrlParser: true}).then(() => {
+mongoose.connect('mongodb+srv://chatdb:chatdb@cluster0-pvy8y.mongodb.net/FoodDelivery?retryWrites=true', {useNewUrlParser: true}).then(() => {
   console.log('db connected');
 });
 
