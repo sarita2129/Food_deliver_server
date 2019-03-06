@@ -7,9 +7,7 @@
     "node": "11.9.0"
   },
   "scripts": {
-    "server": "npm server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
-
+    "server": "npm server.js"
   },
   "author": "",
   "license": "ISC",
