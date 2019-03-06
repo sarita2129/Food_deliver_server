@@ -9,7 +9,7 @@
   },
   "scripts": {
     "server": "npm server.js",
-    "prestart": "next build",
+    "prestart": "npm run build",
     "start": "node server.js"
   },
   "author": "",
