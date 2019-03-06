@@ -7,7 +7,7 @@ var restaurants = require('./routes/api/restaurants');
 var orders = require('./routes/api/order');
 
 const cors = require('cors');
-var port = process.env.PORT || 5000;
+var PORT = process.env.PORT || 5000;
 
 var app = express();
 
@@ -45,6 +45,4 @@ app.use('/api', orders);
 
 
 // app.use('/api/login', require('./routes/api/signin'));
-app.listen(port, function(){
-  console.log("server started on port " + port);
-});
+app.listen(PORT);
