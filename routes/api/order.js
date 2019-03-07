@@ -72,10 +72,15 @@ router.post('/order', (req, res, next) => {
             message: err
           });
         }
+        Order.find({order_no:order_no}, function(err, order) {
+          
           return res.send({
+            order:order,
             success: true,
             message: 'Data saved successfully'
           });
+        });
+
       });
 
     //});
